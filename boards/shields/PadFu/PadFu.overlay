@@ -9,19 +9,19 @@
 
         /* COLUMNS: driven outputs */
         col-gpios =
-            <&sparkfun_pro_micro_rp2040 0 GPIO_ACTIVE_HIGH>,  // Col 0
-            <&sparkfun_pro_micro_rp2040 1 GPIO_ACTIVE_HIGH>,  // Col 1
-            <&sparkfun_pro_micro_rp2040 2 GPIO_ACTIVE_HIGH>, // Col 2
-            <&sparkfun_pro_micro_rp2040 3 GPIO_ACTIVE_HIGH>; // Col 3
+            <&gpio0 0 GPIO_ACTIVE_HIGH>,  // Col 0
+            <&gpio0 1 GPIO_ACTIVE_HIGH>,  // Col 1
+            <&gpio0 2 GPIO_ACTIVE_HIGH>, // Col 2
+            <&gpio0 3 GPIO_ACTIVE_HIGH>; // Col 3
 
         // ROWS — inputs, pull-down = idle low, detect high state
         row-gpios =
-            <&sparkfun_pro_micro_rp2040 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 0
-            <&sparkfun_pro_micro_rp2040 5  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 1
-            <&sparkfun_pro_micro_rp2040 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 2
-            <&sparkfun_pro_micro_rp2040 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 3
-            <&sparkfun_pro_micro_rp2040 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 4 <-- NEED CORRECT PIN
-            <&sparkfun_pro_micro_rp2040 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // Row 5
+            <&gpio0 4  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 0
+            <&gpio0 5  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 1
+            <&gpio0 6  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 2
+            <&gpio0 8  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 3
+            <&gpio0 9  (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>, // Row 4 <-- NEED CORRECT PIN
+            <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; // Row 5
     };
 
     /* Matrix transform – same numbers, just renamed */
