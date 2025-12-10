@@ -90,7 +90,7 @@
 
     /* Chosen node exactly like the guide */
     chosen {
-        zmk,kscan = &default_kscan;// Required if it's the default kscan for all physical layouts
-        zmk,physical-layout = &physical_layout0;
+        zmk,physical-layout = &padfu_layout;
+        zmk,kscan = &default_kscan;
     };
 };
