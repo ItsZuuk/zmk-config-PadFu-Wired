@@ -1,0 +1,6 @@
+if SHIELD_PADFU
+
+config ZMK_KEYBOARD_NAME   
+    default "PadFu"
+
+endif
