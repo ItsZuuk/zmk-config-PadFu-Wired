@@ -211,13 +211,13 @@
                 &none          &none        &none           &none
                 &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 4
                 &to 0          &to 2        &to 3           &to 4
-            >;0
+            >;
         };
 
-        fusion_layer {
-            display-name = "Fusion360";
+        Fusion_layer {
+            display-name = "Fusion";
             bindings = <
-                &mo 1       &macro_01  &macro_02  &macro_03
+                &mo1        &macro_01  &macro_02  &macro_03
                 &macro_04   &macro_05  &macro_06  &macro_07
                 &macro_08   &macro_09  &macro_10  &macro_11
                 &macro_12   &macro_13  &macro_14  &macro_15
