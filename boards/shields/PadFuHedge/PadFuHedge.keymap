@@ -41,8 +41,16 @@
             >;
         };
 
-        extra_layer_2 {
-            status = "reserved";
+        Fusion_layer {
+            display-name = "Fusion";
+            bindings = <
+                &mo 1          &none        &none           &studio_unlock
+                &none          &none        &none           &none
+                &none          &none        &none           &none
+                &none          &none        &none           &none
+                &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2    &bt BT_SEL 4
+                &to 0          &to 2        &to 3           &to 4
+            >;
         };
 
         extra_layer_3 {
