@@ -11,6 +11,37 @@
                     <&macro_tap &kp F13>,
                     <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
         };
+        macro_02: macro_02 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                    <&macro_tap &kp F14>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+        };
+
+        macro_03: macro_03 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LGUI &kp LSHFT>,
+                    <&macro_tap &kp F15>,
+                    <&macro_release &kp LALT &kp LGUI &kp LSHFT>;
+        };
+
+        macro_04: macro_04 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LGUI &kp LSHFT>,
+                    <&macro_tap &kp F16>,
+                    <&macro_release &kp LCTRL &kp LGUI &kp LSHFT>;
+        };
+
+        macro_05: macro_05 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHFT>,
+                    <&macro_tap &kp F17>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
+        };
     };
 
     keymap {
