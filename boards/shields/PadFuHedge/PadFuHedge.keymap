@@ -42,6 +42,87 @@
                     <&macro_tap &kp F17>,
                     <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
         };
+
+        macro_06: macro_06 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LALT &kp LSHFT>,
+                    <&macro_tap &kp F18>,
+                    <&macro_release &kp LGUI &kp LALT &kp LSHFT>;
+        };
+
+        macro_07: macro_07 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                    <&macro_tap &kp F19>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+        };
+
+        macro_08: macro_08 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LCTRL &kp LSHFT>,
+                    <&macro_tap &kp F20>,
+                    <&macro_release &kp LGUI &kp LCTRL &kp LSHFT>;
+        };
+
+        macro_09: macro_09 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                    <&macro_tap &kp F21>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+        };
+
+        macro_10: macro_10 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LCTRL &kp LSHFT>,
+                    <&macro_tap &kp F22>,
+                    <&macro_release &kp LALT &kp LCTRL &kp LSHFT>;
+        };
+        
+        macro_11: macro_11 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LALT &kp LCTRL>,
+                    <&macro_tap &kp F23>,
+                    <&macro_release &kp LGUI &kp LALT &kp LCTRL>;
+        };
+
+        macro_12: macro_12 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LSHFT &kp LCTRL &kp LGUI>,
+                    <&macro_tap &kp F24>,
+                    <&macro_release &kp LSHFT &kp LCTRL &kp LGUI>;
+        };
+
+        macro_13: macro_13 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LGUI &kp LSHFT>,
+                    <&macro_tap &kp MINUS>,
+                    <&macro_release &kp LALT &kp LGUI &kp LSHFT>;
+        };
+
+        macro_14: macro_14 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LALT &kp LCTRL>,
+                    <&macro_tap &kp EQUAL>,
+                    <&macro_release &kp LGUI &kp LALT &kp LCTRL>;
+        };
+
+        macro_15: macro_15 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LCTRL &kp LSHFT>,
+                    <&macro_tap &kp SLASH>,
+                    <&macro_release &kp LALT &kp LCTRL &kp LSHFT>;
+        };
+
     };
 
     keymap {
