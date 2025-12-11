@@ -30,5 +30,9 @@
                 &kp K           &kp L      &kp M      &kp G
             >;
         };
+
+        extra_layer_2 {
+            status = "reserved";
+        };
     };
 };
