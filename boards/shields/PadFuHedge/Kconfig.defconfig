@@ -1,6 +1,6 @@
-if SHIELD_PADFU
+if SHIELD_PADFUHEDGE
 
 config ZMK_KEYBOARD_NAME   
-    default "PadFu"
+    default "PadFuHedge"
 
 endif
