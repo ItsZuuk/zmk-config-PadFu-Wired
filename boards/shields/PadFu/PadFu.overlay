@@ -25,7 +25,7 @@
             <&gpio0 26 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>;
     };
 
-    matrix0: matrix_transform {
+    default_transform: matrix_transform {
         compatible = "zmk,matrix-transform";
         rows = <6>;
         columns = <4>;
