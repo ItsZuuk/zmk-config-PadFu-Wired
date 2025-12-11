@@ -4,14 +4,12 @@
 
 / {
     macros {
-        zed_em_kay: zed_em_kay {
+        macro_01: macro_01 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings
-                = <&macro_press &kp LSHFT>
-                , <&macro_tap &kp Z &kp M &kp K>
-                , <&macro_release &kp LSHFT>
-                ;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHFT>,
+                    <&macro_tap &kp F13>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
         };
     };
 
@@ -27,7 +25,7 @@
                 &kp KP_N7         &kp KP_N8       &kp KP_N9          &kp KP_PLUS
                 &kp KP_N4         &kp KP_N5       &kp KP_N6          &kp KP_PLUS
                 &kp KP_N1         &kp KP_N2       &kp KP_N3          &kp ENTER
-                &zed_em_kay       &kp N0          &kp KP_DOT         &kp ENTER
+                &none             &kp N0          &kp KP_DOT         &kp ENTER
             >;
         };
 
