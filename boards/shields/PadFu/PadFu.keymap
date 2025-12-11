@@ -2,62 +2,21 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
- / {
-    combos {
-        compatible = "zmk,combos";
-
-        combo_activate_layer_2 {
-            timeout-ms = <50>;
-            // Hold row 1 col 2 + row 2 col 2 → enter config
-            key-positions = <10 14>;
-            bindings = <&mo 1>;
-        };
-    };
-
+/ {
     keymap {
         compatible = "zmk,keymap";
 
-        base_layer {      // Layer 0
-            display-name = "base";
-
-            // 6 rows × 4 columns
+        // ==== Layer 0 - Base Numbers + Letters ====
+        base_layer {
+            display-name = "Base";
             bindings = <
-                &kp KP_N7     &kp KP_N8      &kp KP_N9      &kp KP_DIVIDE
-                &kp KP_N4     &kp KP_N5      &kp KP_N6      &kp KP_MULTIPLY
-                &kp KP_N1     &kp KP_N2      &kp KP_N3      &kp KP_MINUS
-                &kp KP_DOT    &kp KP_N0      &kp KP_ENTER   &kp KP_PLUS
-                &kp KP_TAB    &kp KP_ESC     &kp KP_BSPACE  &kp KP_EQUAL
-                &kp KP_UP     &kp KP_LEFT    &kp KP_DOWN    &kp KP_RIGHT
+                &kp N1          &kp N2     &kp N3     &&studio_unlock
+                &kp N5          &kp N6     &kp N7     &kp N8
+                &kp N9          &kp N0     &kp A      &kp B
+                &kp C           &kp D      &kp E      &kp F
+                &kp G           &kp H      &kp I      &kp J
+                &kp K           &kp L      &kp M      &kp G
             >;
         };
-
-        macro_layer_1 {  // Layer 1 — config
-            display-name = "config";
-
-            bindings = <
-                &kp KP_NUMLOCK  &none &none &studio_unlock
-                &none           &none &none &bt BT_CLR_ALL
-                &none           &none &none &none
-                &none           &none &none &none
-                &none           &none &none &none
-                &none           &none &none &none
-            >;
-        };
-
-        extra_layer_2 {
-            status = "reserved";
-        };
-
-        extra_layer_3 {
-            status = "reserved";
-        };
-
-        extra_layer_4 {
-            status = "reserved";
-        };
-
-        extra_layer_5 {
-            status = "reserved";
-        };        
     };
- };
+};
