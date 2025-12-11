@@ -214,15 +214,15 @@
             >;
         };
 
-        Fusion_layer {
-            display-name = "Fusion";
+        Macro_layer {
+            display-name = "Macro";
             bindings = <
-                &mo1        &macro_01  &macro_02  &macro_03
+                &mo 1       &macro_01  &macro_02  &macro_03
                 &macro_04   &macro_05  &macro_06  &macro_07
                 &macro_08   &macro_09  &macro_10  &macro_11
                 &macro_12   &macro_13  &macro_14  &macro_15
                 &macro_16   &macro_17  &macro_18  &macro_19
-                &none       &none      &macro_22  &macro_23
+                &macro_20   &macro_21  &macro_22  &macro_23
             >;
         };
 
