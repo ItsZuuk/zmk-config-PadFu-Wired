@@ -18,32 +18,5 @@
                 &kp K           &kp L      &kp M      &kp G
             >;
         };
-
-        macro_layer_1 {
-            display-name = "config_layer";
-            bindings = <
-                &kp B           &kp N2     &kp N3     &kp F
-                &kp N5          &kp N6     &kp N7     &kp N8
-                &kp N9          &kp N0     &kp A      &kp B
-                &kp C           &kp D      &kp E      &kp F
-                &kp G           &kp H      &kp I      &kp J
-                &kp K           &kp L      &kp M      &kp A      
-            >;
-        };
-
-        extra_layer_2 {
-            status = "reserved";
-        };
-
-        extra_layer_3 {
-            status = "reserved";
-        };
-        extra_layer_4 {
-            status = "reserved";
-        };
-
-        extra_layer_5 {
-            status = "reserved";
-        };
     };
 };
