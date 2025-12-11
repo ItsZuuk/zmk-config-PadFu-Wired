@@ -1,16 +1,12 @@
 #include <dt-bindings/zmk/matrix_transform.h>
+#include <physical_layouts.dtsi>
 
 / {
-    chosen {
-        zmk,kscan = &kscan0;
-        zmk,matrix_transform = &matrix0;
-        zmk,physical-layout = &layout0;
-    };
-
-    kscan0: kscan0 {
+    default_kscan: kscan {
         compatible = "zmk,kscan-gpio-matrix";
         label = "PadFu";
         diode-direction = "col2row";
+        poll-period-ms = <20>;
 
         // COLUMNS (outputs that drive)
         col-gpios =
