@@ -1,2 +1,0 @@
-config SHIELD_PADFU
-    def_bool $(shields_list_contains, PadFu)
