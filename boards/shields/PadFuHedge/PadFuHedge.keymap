@@ -82,7 +82,7 @@
                     <&macro_tap &kp F22>,
                     <&macro_release &kp LALT &kp LCTRL &kp LSHFT>;
         };
-        
+
         macro_11: macro_11 {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -122,7 +122,46 @@
                     <&macro_tap &kp SLASH>,
                     <&macro_release &kp LALT &kp LCTRL &kp LSHFT>;
         };
+        
+        macro_16: macro_16 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LALT &kp LCTRL>,
+                    <&macro_tap &kp SEMICOLON>,
+                    <&macro_release &kp LGUI &kp LALT &kp LCTRL>;
+        };
 
+        macro_17: macro_17 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHFT>,
+                    <&macro_tap &kp BACKSLASH>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
+        };
+
+        macro_18: macro_18 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LGUI &kp LSHFT>,
+                    <&macro_tap &kp COMMA>,
+                    <&macro_release &kp LALT &kp LGUI &kp LSHFT>;
+        };
+
+        macro_19: macro_19 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LGUI &kp LSHFT>,
+                    <&macro_tap &kp PERIOD>,
+                    <&macro_release &kp LCTRL &kp LGUI &kp LSHFT>;
+        };
+
+        macro_20: macro_20 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LGUI>,
+                    <&macro_tap &kp QUOTE>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
+        };
     };
 
     keymap {
