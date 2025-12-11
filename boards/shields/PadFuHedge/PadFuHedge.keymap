@@ -161,6 +161,29 @@
                     <&macro_tap &kp SINGLE_QUOTE>,
                     <&macro_release &kp LCTRL &kp LALT &kp LGUI>;
         };
+        macro_21: macro_21 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHFT>,
+                    <&macro_tap &kp LEFT_BRACKET>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LSHFT>;
+        };
+
+        macro_22: macro_22 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LGUI &kp LALT &kp LCTRL>,
+                    <&macro_tap &kp RIGHT_BRACKET>,
+                    <&macro_release &kp LGUI &kp LALT &kp LCTRL>;
+        };
+
+        macro_23: macro_23 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LALT &kp LCTRL &kp LSHFT>,
+                    <&macro_tap &kp GRAVE>,
+                    <&macro_release &kp LALT &kp LCTRL &kp LSHFT>;
+        };
     };
 
     keymap {
@@ -194,12 +217,12 @@
         Fusion_layer {
             display-name = "Fusion";
             bindings = <
-                &mo 1          &none        &none       &studio_unlock
-                &macro_01      &macro_02    &macro_03   &macro_04
-                &macro_05      &macro_06    &macro_07   &macro_08
-                &macro_09      &macro_10    &macro_11   &macro_12
-                &macro_13      &macro_14    &macro_15   &macro_16
-                &macro_17      &macro_18    &none       &none
+                &mo 1       &macro_01  &macro_02  &macro_03
+                &macro_04   &macro_05  &macro_06  &macro_07
+                &macro_08   &macro_09  &macro_10  &macro_11
+                &macro_12   &macro_13  &macro_14  &macro_15
+                &macro_16   &macro_17  &macro_18  &macro_19
+                &macro_20   &macro_21  &macro_22  &macro_23
             >;
         };
 
