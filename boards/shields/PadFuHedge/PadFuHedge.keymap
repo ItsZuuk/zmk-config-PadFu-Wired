@@ -4,56 +4,189 @@
 
 / {
     macros {
-        Macro_1: Macro_1 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp A>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_2: Macro_2 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp B>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_3: Macro_3 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp C>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_4: Macro_4 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp D>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_5: Macro_5 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp E>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_6: Macro_6 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp F>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_7: Macro_7 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp G>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_8: Macro_8 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp H>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_9: Macro_9 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp I>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_10: Macro_10 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp J>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_11: Macro_11 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp K>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_12: Macro_12 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp L>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_13: Macro_13 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp M>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_14: Macro_14 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_15: Macro_15 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp O>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_16: Macro_16 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp P>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_17: Macro_17 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp Q>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_18: Macro_18 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp R>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_19: Macro_19 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp S>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_20: Macro_20 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp T>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_21: Macro_21 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp U>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_22: Macro_22 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp V>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_23: Macro_23 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp W>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_24: Macro_24 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp X>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_25: Macro_25 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp Y>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_26: Macro_26 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp Z>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
+        Macro_A: Macro_A {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp A>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
 
-        Macro_27: Macro_27 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N1>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_28: Macro_28 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N2>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_29: Macro_29 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N3>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_30: Macro_30 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N4>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_31: Macro_31 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N5>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_32: Macro_32 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N6>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_33: Macro_33 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N7>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_34: Macro_34 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N8>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_35: Macro_35 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N9>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_36: Macro_36 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp N0>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
+        Macro_B: Macro_B {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp B>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
 
-        Macro_37: Macro_37 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp MINUS>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_38: Macro_38 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp EQUAL>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_39: Macro_39 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp LBKT>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_40: Macro_40 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp RBKT>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_41: Macro_41 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp BSLH>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_42: Macro_42 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp SEMI>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_43: Macro_43 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp SQT>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_44: Macro_44 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp COMMA>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_45: Macro_45 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp DOT>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
-        Macro_46: Macro_46 { bindings = <&macro_press &kp LCTRL &kp LALT &kp LSHIFT>, <&macro_tap &kp SLASH>, <&macro_release &kp LCTRL &kp LALT &kp LSHIFT>; };
+        Macro_C: Macro_C {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp C>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
 
+        Macro_D: Macro_D {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp D>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
 
+        Macro_E: Macro_E {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp E>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_F: Macro_F {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp F>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_G: Macro_G {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp G>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_H: Macro_H {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp H>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_I: Macro_I {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp I>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_J: Macro_J {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp J>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_K: Macro_K {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp K>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_L: Macro_L {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp L>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_M: Macro_M {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp M>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_N: Macro_N {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp N>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_O: Macro_O {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp O>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_P: Macro_P {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp P>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_Q: Macro_Q {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp Q>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_R: Macro_R {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp R>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_S: Macro_S {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp S>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_T: Macro_T {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp T>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_U: Macro_U {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp U>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_V: Macro_V {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp V>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
+
+        Macro_W: Macro_W {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&macro_press &kp LCTRL &kp LALT &kp LWIN>,
+                    <&macro_tap &kp W>,
+                    <&macro_release &kp LCTRL &kp LALT &kp LWIN>;
+        };
     };
 
     keymap {
@@ -87,29 +220,13 @@
         Macro_layer {
             display-name = "Macro";
             bindings = <
-                &mo 1       &Macro_1   &Macro_2   &Macro_3
-                &Macro_4    &Macro_5   &Macro_6   &Macro_7
-                &Macro_8    &Macro_9   &Macro_10  &Macro_11
-                &Macro_12   &Macro_13  &Macro_14  &Macro_15
-                &Macro_16   &Macro_17  &Macro_18  &Macro_19
-                &Macro_20   &Macro_21  &Macro_22  &Macro_23
+                &mo 1      &Macro_A  &Macro_B  &Macro_C
+                &Macro_D   &Macro_E  &Macro_F  &Macro_G
+                &Macro_H   &Macro_I  &Macro_J  &Macro_K
+                &Macro_L   &Macro_M  &Macro_N  &Macro_O
+                &Macro_P   &Macro_Q  &Macro_R  &Macro_S
+                &Macro_T   &Macro_U  &macro_V  &macro_W
             >;
-        };
-
-        Macro_layer_2 {
-            display-name = "Macro 2";
-            bindings = <
-                &mo 1       &Macro_24  &Macro_25  &Macro_26
-                &Macro_27   &Macro_28  &Macro_29  &Macro_30
-                &Macro_31   &Macro_32  &Macro_33  &Macro_34
-                &Macro_35   &Macro_36  &Macro_37  &Macro_38
-                &Macro_39   &Macro_40  &Macro_41  &Macro_42
-                &Macro_43   &Macro_44  &Macro_45  &Macro_46
-            >;
-        };
-
-        extra_layer_3 {
-            status = "reserved";
         };
 
         extra_layer_3 {
