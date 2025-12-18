@@ -75,6 +75,127 @@
             #binding-cells = <0>;
             bindings = <&kp F24>;
         };
+
+        // LSHIFT+F KEYS
+                mp_13: mp_13 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F13>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_14: mp_14 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F14>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_15: mp_15 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F15>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_16: mp_16 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F16>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_17: mp_17 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F17>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_18: mp_18 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F18>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_19: mp_19 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F19>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_20: mp_20 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F20>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_21: mp_21 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F21>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_22: mp_22 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F22>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_23: mp_23 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F23>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
+
+        mp_24: mp_24 {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings
+                = <&macro_press &kp LSHFT>
+                , <&macro_tap &kp F24>
+                , <&macro_release &kp LSHFT>
+                ;
+        };
     };
 
     keymap {
