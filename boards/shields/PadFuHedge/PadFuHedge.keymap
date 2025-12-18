@@ -58,8 +58,8 @@
         mp_44: mp_44 { bindings = <&macro_press &kp LALT>, <&macro_tap &kp F20>, <&macro_release &kp LALT>; };
         mp_45: mp_45 { bindings = <&macro_press &kp LALT>, <&macro_tap &kp F21>, <&macro_release &kp LALT>; };
         mp_46: mp_46 { bindings = <&macro_press &kp LALT>, <&macro_tap &kp F22>, <&macro_release &kp LALT>; };
-        };
     };
+};
 
     keymap {
         compatible = "zmk,keymap";
